@@ -1,0 +1,23 @@
+$backgroundColor: #E27D60;
+$foregroundColor: white;
+
+p {
+	background-color: $backgroundColor;
+	color: $foregroundColor;
+}
+
+%message {
+	display:  block;
+	padding: 13px 0 0 10px;
+	height: 40px;
+	color: $foregroundColor;
+	border:  1px solid $backgroundColor;
+	font-size: 1.4em;
+	font-weight: 700;
+	// text-transform: uppercase;
+}
+
+.warning {
+	@extend %message;
+	background-color: $backgroundColor;
+}
