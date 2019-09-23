@@ -1,0 +1,20 @@
+p {
+  background-color: #E27D60;
+  color: white;
+}
+
+.warning {
+  display: block;
+  padding: 13px 0 0 10px;
+  height: 40px;
+  color: white;
+  border: 1px solid #E27D60;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.warning {
+  background-color: #E27D60;
+}
+
+/*# sourceMappingURL=style.css.map */
